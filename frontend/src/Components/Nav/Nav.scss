@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Squada+One&family=Ultra&display=swap');
+
+.Nav {
+    width: 100%;
+    margin: auto;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045); /* Instagram gradient */
+    border-radius: 0px; /* Optional: for rounded corners */
+    padding: 0 20px; /* Optional: for some spacing inside */
+
+    h2 {
+        margin-left: 50px;
+        font-family: "Dancing Script", cursive;
+        font-size: 2rem;
+        color: white; /* Ensure text is visible on the gradient */
+    }
+
+    .profile {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-right: 100px;
+
+        img {
+            height: 35px;
+            width: 35px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 2px solid white; /* Adds a nice border around the profile image */
+        }
+    }
+}
